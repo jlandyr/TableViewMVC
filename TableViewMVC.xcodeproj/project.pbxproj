@@ -12,6 +12,10 @@
 		FECA908F20614A880077571E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECA908D20614A880077571E /* Main.storyboard */; };
 		FECA909120614A880077571E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECA909020614A880077571E /* Assets.xcassets */; };
 		FECA909420614A880077571E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECA909220614A880077571E /* LaunchScreen.storyboard */; };
+		FECA90A020614B1F0077571E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA909E20614B1F0077571E /* TableViewCell.swift */; };
+		FECA90A120614B1F0077571E /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FECA909F20614B1F0077571E /* TableViewCell.xib */; };
+		FECA90A320614D710077571E /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA90A220614D710077571E /* Quote.swift */; };
+		FECA90A520614DDF0077571E /* QuotesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA90A420614DDF0077571E /* QuotesDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FECA909020614A880077571E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FECA909320614A880077571E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FECA909520614A880077571E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECA909E20614B1F0077571E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FECA909F20614B1F0077571E /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		FECA90A220614D710077571E /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		FECA90A420614DDF0077571E /* QuotesDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +63,41 @@
 			isa = PBXGroup;
 			children = (
 				FECA908920614A880077571E /* AppDelegate.swift */,
-				FECA908B20614A880077571E /* ViewController.swift */,
-				FECA908D20614A880077571E /* Main.storyboard */,
-				FECA909020614A880077571E /* Assets.xcassets */,
-				FECA909220614A880077571E /* LaunchScreen.storyboard */,
+				FECA909D20614AA00077571E /* Controller */,
+				FECA909C20614A9A0077571E /* View */,
+				FECA909B20614A920077571E /* Model */,
 				FECA909520614A880077571E /* Info.plist */,
 			);
 			path = TableViewMVC;
+			sourceTree = "<group>";
+		};
+		FECA909B20614A920077571E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FECA90A220614D710077571E /* Quote.swift */,
+				FECA90A420614DDF0077571E /* QuotesDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FECA909C20614A9A0077571E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FECA908D20614A880077571E /* Main.storyboard */,
+				FECA909020614A880077571E /* Assets.xcassets */,
+				FECA909220614A880077571E /* LaunchScreen.storyboard */,
+				FECA909E20614B1F0077571E /* TableViewCell.swift */,
+				FECA909F20614B1F0077571E /* TableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FECA909D20614AA00077571E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FECA908B20614A880077571E /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FECA909420614A880077571E /* LaunchScreen.storyboard in Resources */,
+				FECA90A120614B1F0077571E /* TableViewCell.xib in Resources */,
 				FECA909120614A880077571E /* Assets.xcassets in Resources */,
 				FECA908F20614A880077571E /* Main.storyboard in Resources */,
 			);
@@ -136,7 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FECA90A320614D710077571E /* Quote.swift in Sources */,
+				FECA90A020614B1F0077571E /* TableViewCell.swift in Sources */,
 				FECA908C20614A880077571E /* ViewController.swift in Sources */,
+				FECA90A520614DDF0077571E /* QuotesDataSource.swift in Sources */,
 				FECA908A20614A880077571E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
