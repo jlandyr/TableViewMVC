@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE82AAEB206264C800FB0F23 /* Quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE82AAEA206264C800FB0F23 /* Quotes.plist */; };
+		FE82AAED2062817700FB0F23 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE82AAEC2062817700FB0F23 /* DataController.swift */; };
 		FECA908A20614A880077571E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA908920614A880077571E /* AppDelegate.swift */; };
 		FECA908C20614A880077571E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA908B20614A880077571E /* ViewController.swift */; };
 		FECA908F20614A880077571E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECA908D20614A880077571E /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE82AAEA206264C800FB0F23 /* Quotes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Quotes.plist; sourceTree = "<group>"; };
+		FE82AAEC2062817700FB0F23 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		FECA908620614A880077571E /* TableViewMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECA908920614A880077571E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FECA908B20614A880077571E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 			children = (
 				FECA90A220614D710077571E /* Quote.swift */,
 				FECA90A420614DDF0077571E /* QuotesDataSource.swift */,
+				FE82AAEA206264C800FB0F23 /* Quotes.plist */,
+				FE82AAEC2062817700FB0F23 /* DataController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -162,6 +168,7 @@
 				FECA909420614A880077571E /* LaunchScreen.storyboard in Resources */,
 				FECA90A120614B1F0077571E /* TableViewCell.xib in Resources */,
 				FECA909120614A880077571E /* Assets.xcassets in Resources */,
+				FE82AAEB206264C800FB0F23 /* Quotes.plist in Resources */,
 				FECA908F20614A880077571E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FECA90A320614D710077571E /* Quote.swift in Sources */,
+				FE82AAED2062817700FB0F23 /* DataController.swift in Sources */,
 				FECA90A020614B1F0077571E /* TableViewCell.swift in Sources */,
 				FECA908C20614A880077571E /* ViewController.swift in Sources */,
 				FECA90A520614DDF0077571E /* QuotesDataSource.swift in Sources */,

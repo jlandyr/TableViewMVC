@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>text</key>
+		<string>Design is not just what it looks like and feels like. Design is how it works.</string>
+		<key>author</key>
+		<string>Steve Jobs</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Life is what happens when you’re busy making other plans.</string>
+		<key>author</key>
+		<string>John Lennon</string>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>Two things are infinite: the universe and human stupidity; and I am not sure about the universe.</string>
+		<key>author</key>
+		<string>Albert Einstein</string>
+	</dict>
+</array>
+</plist>
